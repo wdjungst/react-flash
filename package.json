@@ -1,6 +1,6 @@
 {
   "name": "@djungst/react-flash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple self destructing flash component for React",
   "main": "./dist/index.js",
   "author": "djungst",
@@ -11,7 +11,8 @@
   },
   "scripts": {
     "build:dev": "NODE_ENV=development webpack",
-    "build:production": "NODE_ENV=production webpack -p"
+    "build:production": "NODE_ENV=production webpack -p",
+    "prepublish": "npm run build:production"
   },
   "license": "MIT",
   "peerDependencies": {
