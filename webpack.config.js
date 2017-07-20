@@ -37,8 +37,7 @@ if ( process.env.NODE_ENV === 'production' ) {
 
     WebpackConfig.externals = {
         'react': 'react',
-        'react-dom': 'react-dom',
-        'highlight.js': 'highlight.js'
+        'react-dom': 'react-dom'
     };
 
     WebpackConfig.plugins = [

@@ -1,6 +1,6 @@
 {
   "name": "@djungst/react-flash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple self destructing flash component for React",
   "main": "./dist/index.js",
   "author": "djungst",
